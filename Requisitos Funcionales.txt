@@ -1,0 +1,34 @@
+SISTEMA DE ENCUESTAS DE CINE
+*****************************
+
+Un cine necesita registrar el nivel de satisfacción de sus clientes en cuanto a las películas, la disposición de butacas, 
+calidad de sonido e imagen. El objetivo es llevar un control y mejorar la calidad de servicio en base a los resultados.
+El sistema hace enfasis en la comodidad del usuario al llenar la encuesta y la libre expresion del mismo.
+
+
+REQUISITOS FUNCIONALES
+----------------------
+
+1. El sistema deberá contar con un menú de películas.
+
+2. El sistema deberá contar con una interfaz de  una escala de puntaje representada en "estrellas".
+  2.1 - Cada estrella representa un nivel de satisfacion.
+  2.2 - La cantidad minima de estrellas deebera ser de 1.
+  2.3 - La cantidad maxima de estrellas sera de 5.
+
+3. El sistema deberá contar con una interfaz de una escala de puntaje representada en números de 1 a 3
+  3.1 - Cada número representa un nivel de satisfacción.
+  3.2 - El numero 1 se traduce en puntaje "MALO"
+  3.3 - El numero 2 se traduce en puntaje "BUENO"
+  3.4 - El numero 3 se traducee en un puntaje "EXCElENTE"
+  3.5 - Esta interfaz será utilizada para los conceptos de "Ubicacion de butaca", "Calidad de imagen" y "Calidad de sonido" respectivamente.
+
+4. El sistema debera contar con una interfaz de "Opinion" donde el usuario
+exprese libremente un comentario sobre la pelicula seleccionada.
+
+5. El sistema debera contar con un resumen para visualizar las respuestas 
+del usuario sobre los puntos anteriores.
+
+6. El sistema deberá contar con opciones de cierre o reinicio al finalizar la encuesta.
+  6.1 - La opcion de cierre debera asignarse al numero 0 y finaliza la ejecucion del algoritmo.
+  6.2 - La opcion de reinicio debera reiniciar el algoritmo a su estado inicial, ejecutando el mismo desde el primer menu.
