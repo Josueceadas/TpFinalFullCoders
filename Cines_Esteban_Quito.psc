@@ -5,11 +5,11 @@ Algoritmo Cines_Esteban_Quito
 	aux = 0
 	continuar = 1
 	nombre = ""
-	reseña = ""
+	reseÃ±a = ""
 	nombrePeli = ""
 	estrellas = ""
 	
-	logo = "########## ( >>>>>>> CINES ESTABU TACA <<<<<<<) ##########"
+	logo = "########## ( >>>>>>> CINES ESTEBAN QUITO <<<<<<<) ##########"
 	Op = "Oppenheimer"
 	B = "Barbie"
 	E = "Elementos"
@@ -18,10 +18,10 @@ Algoritmo Cines_Esteban_Quito
 		Mientras continuar = 1
 		Escribir logo
 		Escribir ""
-		Escribir "¿Cuál es tu nombre?"
+		Escribir "Â¿CuÃ¡l es tu nombre?"
 		Leer nombre
-		Escribir "Bienvenido/a ", nombre," a nuestra encuesta de satisfacción cinematográfica."
-		Escribir "A continuación, indique qué película desea puntuar: "
+		Escribir "Bienvenido/a ", nombre," a nuestra encuesta de satisfacciÃ³n cinematogrÃ¡fica."
+		Escribir "A continuaciÃ³n, indique quÃ© pelÃ­cula desea puntuar: "
 		Escribir ""
 		Escribir Op, " (Ingrese 1)"
 		Escribir B, " (Ingrese 2)"
@@ -31,7 +31,7 @@ Algoritmo Cines_Esteban_Quito
 		Leer peli
 		
 		Si peli < 4 y peli <> 0 Entonces
-			Escribir "¡Perfecto!"
+			Escribir "Â¡Perfecto!"
 		SiNo
 			Repetir
 				Escribir "ERROR. Ingrese una respuesta valida"
@@ -51,7 +51,7 @@ Algoritmo Cines_Esteban_Quito
 				nombrePeli = " ELEMENTOS "
 		Fin Segun
 		
-			Escribir "De acuerdo a tu gusto y experiencia con la peli, ¿Cuantas estrellas le pondrias?"
+			Escribir "De acuerdo a tu gusto y experiencia con la peli, Â¿Cuantas estrellas le pondrias?"
 			Escribir ""
 			Escribir "1 (* - - - -) = MUY MALA"
 			Escribir "2 (* * - - -) = MALA"
@@ -66,22 +66,22 @@ Algoritmo Cines_Esteban_Quito
 				Segun puntaje Hacer
 					Opcion 1: puntaje = 1
 						estrellas = "* - - - -"
-						Escribir "Puntuaste la película con ", puntaje, " estrella(s) ", estrellas
+						Escribir "Puntuaste la pelÃ­cula con ", puntaje, " estrella(s) ", estrellas
 					Opcion 2: puntaje = 2
 						estrellas = "* * - - -"
-						Escribir "Puntuaste la película con ", puntaje, " estrella(s) ", estrellas
+						Escribir "Puntuaste la pelÃ­cula con ", puntaje, " estrella(s) ", estrellas
 					Opcion 3:
 						puntaje = 3
 						estrellas = "* * * - -"
-						Escribir "Puntuaste la película con ", puntaje, " estrella(s) ", estrellas
+						Escribir "Puntuaste la pelÃ­cula con ", puntaje, " estrella(s) ", estrellas
 					Opcion 4:
 						puntaje = 4
 						estrellas = "* * * * -"
-						Escribir "Puntuaste la película con ", puntaje, " estrella(s) ", estrellas
+						Escribir "Puntuaste la pelÃ­cula con ", puntaje, " estrella(s) ", estrellas
 					Opcion 5:
 						puntaje = 5
 						estrellas = "* * * * *"
-						Escribir "Puntuaste la película con ", puntaje, " estrella(s) ", estrellas
+						Escribir "Puntuaste la pelÃ­cula con ", puntaje, " estrella(s) ", estrellas
 				Fin Segun
 			SiNo
 				Repetir
@@ -91,13 +91,13 @@ Algoritmo Cines_Esteban_Quito
 			FinSi
 		
 		Escribir ""
-		Escribir "¿Porque decidiste ponerle ese puntaje? Explica brevemente."
+		Escribir "Â¿Porque decidiste ponerle ese puntaje? Explica brevemente."
 		Escribir ""
 		
 		Leer opinion
 		
 		Escribir ""
-		Escribir "¡Excelente! Por ultimo, nos gustaria saber que puntaje le das del 1 al 3 a nuestras salas de cine en cuanto a: UBICACION DE BUTACA"
+		Escribir "Â¡Excelente! Por ultimo, nos gustaria saber que puntaje le das del 1 al 3 a nuestras salas de cine en cuanto a: UBICACION DE BUTACA"
 		Escribir "  1 (MALO),  2  (BUENO),  3 (EXCELENTE)  "
 		Escribir ""
 		
@@ -171,7 +171,7 @@ Algoritmo Cines_Esteban_Quito
 		
 		
 		Escribir ""
-		Escribir " ¡ Muchas gracias por tus respuestas! "
+		Escribir " Â¡ Muchas gracias por tus respuestas! "
 		Escribir ""
 		Escribir " ---------RESUMEN DE TU ENCUESTA--------"
 		Escribir " - PELICULA: ", nombrePeli
@@ -183,7 +183,7 @@ Algoritmo Cines_Esteban_Quito
 		Escribir " ---------------------------------------"
 		Escribir ""
 		Escribir "PARA CERRAR LA ENCUESTA, PULSE 0."
-		Escribir "PARA PUNTUAR OTRA PELíCULA, PULSE 1"
+		Escribir "PARA PUNTUAR OTRA PELÃ­CULA, PULSE 1"
 		Leer aux
 		
 		Si aux = 0
